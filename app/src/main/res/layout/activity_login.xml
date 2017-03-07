@@ -11,30 +11,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.myfox.a55a.mrfox.MySplash">
 
-    <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        app:srcCompat="@drawable/fox"
-        android:layout_marginTop="40dp"
-        android:id="@+id/imageView"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/textView"
-        android:layout_toStartOf="@+id/textView"
-        android:layout_marginRight="25dp"
-        android:layout_marginEnd="25dp" />
-
-    <TextView
-        android:text="MrFox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="50dp"
-        android:id="@+id/textView"
-        android:layout_alignBottom="@+id/imageView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="56dp"
-        android:layout_marginEnd="56dp" />
-
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,4 +52,28 @@
         android:layout_alignStart="@+id/imageView"
         android:layout_alignRight="@+id/textView"
         android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:text="MrFox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:id="@+id/textView"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/fox"
+        android:layout_marginTop="42dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
